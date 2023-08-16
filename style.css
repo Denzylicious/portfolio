@@ -1,0 +1,40 @@
+body, .navbar{
+    background-color: #191919;
+}
+
+.hero{
+    min-height: 100vh;
+}
+
+.about{
+    text-wrap:balance;
+}
+
+
+
+#animate{
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #bababa, #fff, #bababa);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+a:hover, .navlink:hover{
+    color: #bababa;
+}
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
