@@ -10,8 +10,6 @@ body, .navbar{
     text-wrap:balance;
 }
 
-
-
 #animate{
     position: relative;
     font-family: sans-serif;
@@ -27,7 +25,7 @@ body, .navbar{
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
-a:hover, .navlink:hover{
+a:hover{
     color: #bababa;
 }
 @keyframes animate {
